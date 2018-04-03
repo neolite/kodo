@@ -14,7 +14,7 @@ config :kodo, KodoWeb.Endpoint,
   watchers: [
     node: ["node_modules/webpack/bin/webpack.js", "--watch", "--colors",
     cd: Path.expand("../assets", __DIR__)
-  ]
+  ]]
 
 # ## SSL Support
 #
